@@ -1,0 +1,48 @@
+/* Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+/* Main Root */
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* App Component */
+.app-container {
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* App Heading */
+h1 {
+  color: #2563eb;
+  margin-bottom: 25px;
+}
+
+/* Functional & Arrow Components */
+h2 {
+  background-color: #e0ecff;
+  color: #1e40af;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  font-size: 20px;
+}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-image: url("/netflixbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-shade {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+}
+
+.article-title {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.article-subtitle {
+  font-size: 30px;
+}
