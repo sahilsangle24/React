@@ -1,5 +1,6 @@
 import React from "react";
 import WelcomeMsg from "./components/WelcomeMsg";
+import "./App.css";
 
 class App extends React.Component {
   render() {
