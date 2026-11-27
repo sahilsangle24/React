@@ -1,0 +1,41 @@
+.game-container {
+  width: 350px;
+  margin: 60px auto;
+  padding: 25px;
+  text-align: center;
+  background: #f4f4f4;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px #00000025;
+  font-family: Arial, sans-serif;
+}
+
+.count {
+  font-size: 45px;
+  color: #2563eb;
+}
+
+button {
+  padding: 10px 25px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-btn {
+  background: green;
+}
+
+.sub-btn {
+  background: red;
+}
+
+.reset-btn {
+  background: blue;
+}
+
+button:hover {
+  opacity: 0.8;
+}
